@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Basic Button with some emoji 1`] = `
+<button
+  className="Button"
+>
+  <span
+    aria-label="so cool"
+    role="img"
+  >
+    😀 😎 👍 💯
+  </span>
+</button>
+`;
+
+exports[`Storyshots Basic Button with text 1`] = `
+<button
+  className="Button"
+>
+  Hello Button
+</button>
+`;
+
+exports[`Storyshots Center Button with some emoji 1`] = `
+<div
+  style={
+    Object {
+      "textAlign": "center",
+    }
+  }
+>
+  <button
+    className="Button"
+  >
+    <span
+      aria-label="so cool"
+      role="img"
+    >
+      😀 😎 👍 💯
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Storyshots Center Button with text 1`] = `
+<div
+  style={
+    Object {
+      "textAlign": "center",
+    }
+  }
+>
+  <button
+    className="Button"
+  >
+    Hello Button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Nesting/Button/Emoji with some emoji 1`] = `
+<button
+  className="Button"
+>
+  <span
+    aria-label="so cool"
+    role="img"
+  >
+    😀 😎 👍 💯
+  </span>
+</button>
+`;
+
+exports[`Storyshots Nesting/Button/Text with text 1`] = `
+<button
+  className="Button"
+>
+  Hello Button
+</button>
+`;
